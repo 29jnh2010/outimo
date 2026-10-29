@@ -1,15 +1,37 @@
+:root{
+    --cor-principal: #1F06AC;
+    --cor-ssecudaria: #0F42C0;
+    --cor-terciaria: #5882E8;
+    --cor-detalhe: #E3EF4F;
+}
+
+body{
+    text-align: center;
+    width: 100%;
+    display: flex;
+
+}
+
+
 .secao-metas{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
+    margin: auto;
+    background-color: var(--cor-terciaria);
+    border-radius: 15px;
+    box-s
 }
 
 .meta{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 15px;
+    border: 2px solid var(--cor-detalhe);
+    margin: 15px;
 }
 
 img, h2, p{
